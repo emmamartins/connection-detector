@@ -1,0 +1,24 @@
+{
+    "name": "connection-detector",
+    "version": "0.5.0",
+    "description": "Checking if your internet connect is active or offline while navigating around the application",
+    "author": "Emmanuel Essien <emmaessiensp@gmail.com> (https://github.com/emmamartins)",
+    "license": "MIT",
+    "homepage": "https://betacodings.com",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "https",
+      "offline",
+      "connection detector",
+      "detector",
+      "offline checker"
+      
+    ],
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+      ]
+    
+  }
