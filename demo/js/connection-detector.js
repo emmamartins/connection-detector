@@ -60,6 +60,17 @@ const setDefault = {
     url: window.location.href,
     theme: 'black'
 }
+/*
+###
+# Project Name : Connection Detector
+# Author : Emmanuel Essien
+# Author : emmaessiensp@gmail.com
+# Maintainer By: Emmanuel Essien
+# Maintainer Email: emmaessiensp@gmail.com
+# Created by Betacodings on 26 July 2020.
+###
+*/
+
 
 function connectClient(setVal = setDefault) {
     
