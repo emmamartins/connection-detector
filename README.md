@@ -49,11 +49,11 @@ Include css and js into the head of the web page
 
 Connection detector default color theme is set to **Black**
 
-    * Black
-    * Blue
-    * Green
-    * Orange
-    * Red
+* Black
+* Blue
+* Green
+* Orange
+* Red
 
 ## Set Customize Theme
 
@@ -68,7 +68,7 @@ Call as an object
     </script>
 ```
 
-Call as a function
+Call as function
 
 ```javascript
     <script>
@@ -93,7 +93,7 @@ Call as an object
 </script>
 ```
 
-Call as a function
+Call as function
 
 ```javascript
     <script>
