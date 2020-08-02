@@ -31,7 +31,7 @@ const connectionClient = function () {
                 } else {
                     response = 'off';
                 }
-                
+
                 alertConnect_ == true ? new display(response, theme) : ""
             
                 return response == 1 || response == 2 ? true : false
@@ -40,7 +40,7 @@ const connectionClient = function () {
 
 
         } catch (error) {
-            
+
             ClientHttpRequest.open("GET", theUrl, false); // false for synchronous request
             ClientHttpRequest.send();
             if (ClientHttpRequest.readyState == 4 && ClientHttpRequest.status == 200) {
