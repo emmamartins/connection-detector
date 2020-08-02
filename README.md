@@ -6,12 +6,12 @@ Checks if the is internet connection on your browser is connected or not connect
 Connection Detector helps the user or audience that visit or make uses of your application to know when there his or her internet connection is active.
 
 ## Support
-    Working on PC and mobile browsers, Safari, Opera, Mozilla, Chrome, Explore etc.
+Working on PC and mobile browsers, Safari, Opera, Mozilla, Chrome, Explore etc.
 
 
 Note:
 
-    Calling direct function might cause conflict if others module in your application uses thesame function name **isClient()** and **isActive()**, if you happend  to experience conflict or ```function name already exist or defined``` then you have to call it as an Object.
+ > Calling direct function might cause conflict if others module in your application uses thesame function name **isClient()** and **isActive()**, if you happend  to experience conflict or ```function name already exist or defined``` then you have to call it as an Object.
 
 
 ## Installation 
