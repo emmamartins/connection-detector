@@ -39,10 +39,10 @@ Include css and js into the head of the web page
 
 ## Default Parameters
 
-    ```javascript
+```javascript
     url;// Default Application url. it can be replace with url of your choice
     theme = 'Black' 
-    ```
+```
     
 
 ## Color and Themes
