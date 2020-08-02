@@ -1,2 +1,2 @@
-# connection-detector
+# Connection Detector
  
