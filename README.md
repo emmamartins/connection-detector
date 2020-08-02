@@ -8,6 +8,12 @@ Connection Detector helps the user or audience that visit or make uses of your a
 ## Support
     Working on PC and mobile browsers, Safari, Opera, Mozilla, Chrome, Explore etc.
 
+
+Note:
+
+    Calling direct function might cause conflict if others module in your application uses thesame function name **isClient()** and **isActive()**, if you happend  to experience conflict or ```function name already exist or defined``` then you have to call it as an Object.
+
+
 ## Installation 
 
 ````
@@ -23,55 +29,60 @@ Include css and js into the head of the web page
 <script src="js/connection-detector.js"></script>
 
 ````
+## Call 
 
-````javascript
+```javascript
 <script>
     isClient();
 </script>
-````
+```
 
 ## Default Parameters
-    ````javascript
+
+    ```javascript
     url;// Default Application url. it can be replace with url of your choice
-    theme = 'Black'
-    ````
+    theme = 'Black' 
+    ```
     
 
 ## Color and Themes
-    Connection detector default color theme is set to **Black**
 
-    Black
-    Blue
-    Green
-    Orange
-    Red
+Connection detector default color theme is set to **Black**
+
+    * Black
+    * Blue
+    * Green
+    * Orange
+    * Red
 
 ## Set Customize Theme
-    Call as an object 
 
-     ````javascript
+Call as an object 
+
+```javascript
     <script>
         let connection = new Connection();
         connection.isClient({
             theme: 'blue' // or Blue
         });
-    </script>````
+    </script>
+```
 
-    Call as a function
+Call as a function
 
-    ````javascript
+```javascript
     <script>
         isClient({
             theme: 'blue' // or Blue
         });
     </script>
-    ````
+```
 
 ## Check Connection
 
-    Call as an object
+Call as an object
 
-     ````javascript
+```javascript
     <script>
         let connection = new Connection();
         if(connection.isActive() === true){
@@ -79,12 +90,12 @@ Include css and js into the head of the web page
             }else{
                 // Do What you want here
             }
-    </script>
-    ````
+</script>
+```
 
-    Call as a function
+Call as a function
 
-    ````javascript
+```javascript
     <script>
     if(isActive() === true){
         //  Do What you want here 
@@ -92,4 +103,4 @@ Include css and js into the head of the web page
         // Do What you want here
     }
 </script>
-````
+```
