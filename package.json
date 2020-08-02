@@ -16,7 +16,7 @@
       "offline checker"
       
     ],
-    "main": "dist/index.js",
+    "main": "dist/js/connection-detector.js",
     "files": [
         "dist"
       ]
