@@ -165,13 +165,11 @@ const ClickReconnect = function(){
 
 
 const isClient = function(setVal = setDefault, alertConnect_=true){
-    setTimer = 5000
     connect_ = new connection();
     return connect_.isClient(setVal_Obj);  
 }
 
 const isActive = function(setVal = setDefault, alertConnect_=false){
-    setTimer = 5000
     connect_ = new connection();
     return connect_.isActive(setVal_Obj);  
 }
