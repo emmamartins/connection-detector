@@ -8,9 +8,14 @@
     "publishConfig": { 
       "registry": "https://npm.pkg.github.com/" 
     },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "bugs":{ "url" : "https://github.com/emmamartins/connection-detector/issues", 
+      "email" : "emmaessiensp@gmail.com"
+      },
+    "contributors": ["emmamartins"],
+    "repository": {
+      "type" : "git",
+      "url" : "https://github.com/emmamartins/connection-detector.git"
+    },    
     "keywords": [
       "https",
       "offline",
