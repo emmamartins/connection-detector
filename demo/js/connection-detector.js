@@ -96,9 +96,10 @@ const connection = function() {
         setInterval(function () {
             const client = new connectionClient();
             response = client.check(url, theme.toLowerCase(), alertConnect_);
-            return response
+            return alertConnect_ == false ? response : ""
         }, setTimer);
-        return response
+        
+        return alertConnect_ == false ? response : ""
     }
     
 
