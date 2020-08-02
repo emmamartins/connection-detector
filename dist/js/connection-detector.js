@@ -104,7 +104,7 @@ const connection = function() {
 
 this.isActive = function (setVal = setDefault, alertConnect_=false){
     
-    is_active  = this.Client(setVal, alertConnect_);
+    is_active  = this.isClient(setVal, alertConnect_);
     return is_active;
 }
 
