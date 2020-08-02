@@ -173,7 +173,7 @@ const isClient = function(setVal = setDefault, alertConnect_=true){
 const isActive = function(setVal = setDefault, alertConnect_=false){
     setTimer = 5000
     connect_ = new connection();
-    return connect_.isClient(setVal_Obj);  
+    return connect_.isActive(setVal_Obj);  
 }
 
 
