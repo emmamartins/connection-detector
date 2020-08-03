@@ -6,6 +6,8 @@ It is a vanilla **JAVASCRIPT** module and does not require dependency to use.
 ## Why do need?
 Connection Detector helps your application users to know exactly when they do not have an active internet connection, rather than blaming it on your app for taking too long to load.
 
+![Sample Screen](https://pytonik.com/public/assets/home/img/connection-detector.gif)
+
 ## Support
 Most of the browsers today, if not all ships with inbuilt support for javascript, hence a wide range of support across different browsers for both personal computers and mobile browsers: - **Safari**, **Opera**, **Mozilla**, **Chrome**, **Explorer**, etc.
 
