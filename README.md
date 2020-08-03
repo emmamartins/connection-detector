@@ -12,12 +12,20 @@ Most of the browsers today, if not all ships with inbuilt support for javascript
 
 Note:
 
-> Calling the direct function might cause conflict if there is another module in your application that uses the same function name **isClient()** and **isActive()**.  if you encounter any conflict or ```function name already exist or defined``` then you have to call it as an Object.
+> Calling the direct function might cause conflict if there is another module in your application that uses the same function name **isClient()** and **isActive()**.  if you encounter any conflict or ```function name already exist``` or ```already defined``` then you have to call it as an Object.
 
 ## Installation 
 
+### npm
+
 ````
 npm install connection-detector
+````
+
+### git
+
+````
+git clone https://github.com/emmamartins/connection-detector.git
 ````
 
 ## Getting started
