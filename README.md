@@ -7,7 +7,7 @@ It is a vanilla **JAVASCRIPT** module and does not require dependency to use.
 Connection Detector helps your application users to know exactly when they do not have an active internet connection, rather than blaming it on your app for taking too long to load.
 
 ## Support
-Most of the browsers today, if not all ships with inbuilt support for javascript, hence a wide range of support across different browsers for both personal computers and mobile browsers: - Safari, Opera, Mozilla, Chrome, Explorer, etc.
+Most of the browsers today, if not all ships with inbuilt support for javascript, hence a wide range of support across different browsers for both personal computers and mobile browsers: - **Safari**, **Opera**, **Mozilla**, **Chrome**, **Explorer**, etc.
 
 
 Note:
@@ -105,10 +105,25 @@ Call as function
 </script>
 ```
 
+<<<<<<< HEAD
+=======
+
+# Author
+
+👤 **Raphael Essien**
+
+- Github: [Raphael Essien](https://github.com/emmamartins)
+
+
+>>>>>>> 8ace360a2bf174cf9367ef279b32904c7dbb588e
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 ## Show your support
 
+<<<<<<< HEAD
 Give a ⭐️ if you like this project!
+=======
+Give a ⭐️ if you like this project!
+>>>>>>> 8ace360a2bf174cf9367ef279b32904c7dbb588e

@@ -31,7 +31,7 @@ const connectionClient = function () {
                 } else {
                     response = 'off';
                 }
-                
+
                 alertConnect_ == true ? new display(response, theme) : ""
             
                 return response == 1 || response == 2 ? true : false
@@ -40,7 +40,7 @@ const connectionClient = function () {
 
 
         } catch (error) {
-            
+
             ClientHttpRequest.open("GET", theUrl, false); // false for synchronous request
             ClientHttpRequest.send();
             if (ClientHttpRequest.readyState == 4 && ClientHttpRequest.status == 200) {
@@ -96,15 +96,16 @@ const connection = function() {
         setInterval(function () {
             const client = new connectionClient();
             response = client.check(url, theme.toLowerCase(), alertConnect_);
-            return response
+            return alertConnect_ == false ? response : ""
         }, setTimer);
-        return response
+        
+        return alertConnect_ == false ? response : ""
     }
     
 
 this.isActive = function (setVal = setDefault, alertConnect_=false){
     
-    is_active  = this.Client(setVal, alertConnect_);
+    is_active  = this.isClient(setVal, alertConnect_);
     return is_active;
 }
 
@@ -165,13 +166,11 @@ const ClickReconnect = function(){
 
 
 const isClient = function(setVal = setDefault, alertConnect_=true){
-    setTimer = 5000
     connect_ = new connection();
     return connect_.isClient(setVal_Obj);  
 }
 
 const isActive = function(setVal = setDefault, alertConnect_=false){
-    setTimer = 5000
     connect_ = new connection();
     return connect_.isActive(setVal_Obj);  
 }
