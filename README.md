@@ -105,25 +105,10 @@ Call as function
 </script>
 ```
 
-<<<<<<< HEAD
-=======
-
-# Author
-
-👤 **Raphael Essien**
-
-- Github: [Raphael Essien](https://github.com/emmamartins)
-
-
->>>>>>> 8ace360a2bf174cf9367ef279b32904c7dbb588e
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 ## Show your support
 
-<<<<<<< HEAD
 Give a ⭐️ if you like this project!
-=======
-Give a ⭐️ if you like this project!
->>>>>>> 8ace360a2bf174cf9367ef279b32904c7dbb588e
