@@ -1,6 +1,7 @@
 # Connection Detector
  
-Checks if the is internet connection on your browser is connected or not connected or the detector trigger when the connection is lost or offline. It is a pure **JAVASCRIPT** module that does not require dependency to use.
+Connection Detector module asynchronously checks if there exist internet connection on your browser and triggers 'an internet connection loss error message' when it goes offline.
+It is a vanilla **JAVASCRIPT** module and does not require dependency to use.
 
 ## Why do need ?
 Connection Detector helps the user or audience that visits or makes use of your application to know when he or she has an active internet connection.
