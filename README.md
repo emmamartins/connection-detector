@@ -21,7 +21,7 @@ Note:
 ### npm
 
 ````
-npm install connection-detector
+npm i connection-detector
 ````
 
 ### git
